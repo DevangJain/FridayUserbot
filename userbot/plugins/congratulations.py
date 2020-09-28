@@ -3,10 +3,10 @@ import random
 from uniborg.util import admin_cmd, edit_or_reply, sudo_cmd
 
 RUNSREACTS = [
-    "`Congratulations and BRAVO!`",
-    "`You did it! So proud of you!`",
-    "`This calls for celebrating! Congratulations!`",
-    "`I knew it was only a matter of time. Well done!`",
+    "`Thanks Bro 😘😘`",
+    "`You are greatest Person in the Worl 😍`",
+    "`Thank You 🤩`",
+    "`You are Acting like God For Me.. Thanks 😘😘`",
     "`Congratulations on your well-deserved success.`",
     "`Heartfelt congratulations to you.`",
     "`Warmest congratulations on your achievement.`",
@@ -16,8 +16,8 @@ RUNSREACTS = [
 ]
 
 
-@borg.on(admin_cmd(pattern="congo"))
-@borg.on(sudo_cmd(pattern="congo", allow_sudo=True))
+@borg.on(admin_cmd(pattern="thanks"))
+@borg.on(sudo_cmd(pattern="thanks", allow_sudo=True))
 async def _(event):
     if event.fwd_from:
         return
