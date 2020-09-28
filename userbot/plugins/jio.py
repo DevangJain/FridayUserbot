@@ -11,7 +11,7 @@ import asyncio
 from uniborg.util import admin_cmd
 
 
-@borg.on(admin_cmd(pattern=r"jio"))
+@borg.on(admin_cmd(pattern=r"airtel"))
 async def _(event):
 
     if event.fwd_from:
@@ -26,10 +26,10 @@ async def _(event):
 
     # if input_str == "jio":
 
-    await event.edit("jio")
+    await event.edit("airtel")
 
     animation_chars = [
-        "`Connecting To JIO Network 📡 ....`",
+        "`Connecting To Airtel Network 📡 ....`",
         "`█ ▇ ▆ ▅ ▄ ▂ ▁`",
         "`▒ ▇ ▆ ▅ ▄ ▂ ▁`",
         "`▒ ▒ ▆ ▅ ▄ ▂ ▁`",
@@ -47,7 +47,7 @@ async def _(event):
         "`▁ ▂ ▄ ▅ ▆ ▒ ▒`",
         "`▁ ▂ ▄ ▅ ▆ ▇ ▒`",
         "`▁ ▂ ▄ ▅ ▆ ▇ █`",
-        "**JIO Network Connected and Boosted....**",
+        "**Airtel Network Connected and Boosted....**",
     ]
 
     for i in animation_ttl:
