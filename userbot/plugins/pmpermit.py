@@ -10,7 +10,7 @@ from userbot import ALIVE_NAME, CUSTOM_PMPERMIT
 
 PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
 if PMPERMIT_PIC is None:
-    WARN_PIC = "https://telegra.ph/file/a3c7924645009fa161f46.jpg"
+    WARN_PIC = "https://telegra.ph/file/8f499aff60fccbe66d54a.jpg"
 else:
     WARN_PIC = PMPERMIT_PIC
 
@@ -26,10 +26,10 @@ CUSTOM_MIDDLE_PMP = (
 )
 USER_BOT_WARN_ZERO = "You Have Attempted To Spam Masters Inbox So Inorder To Avoid Over Spam , You Have Been Blocked By Userbot"
 USER_BOT_NO_WARN = (
-    "**Hello,This is Friday Protection Service ⚠️\n\n"
+    "**Hello,This is Friday Service ⚠️\n\n"
     f"My Master {DEFAULTUSER} is Busy Right Now !"
     "You May Leave A Request And Wait Till He Approves You. \n\n"
-    "Now You Are In Trouble. So Send `/start` And Register A Request \n\n"
+    "Now You Are In Trouble ❗. So Send `/start` And Register A Request \n\n"
     f"{CUSTOM_MIDDLE_PMP}"
 )
 
